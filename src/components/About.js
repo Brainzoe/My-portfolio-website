@@ -8,8 +8,15 @@ const About = () => {
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6">About Me</h2>
         <p className="mb-4">
-          Versatile and highly skilled professional with a strong background in Business Intelligence, Data Engineering, and Software Development...
-        </p>
+    Versatile and highly skilled professional with a strong background in Business Intelligence, Data Engineering, and Software Development. I specialize in transforming raw data into actionable insights, leveraging my expertise in statistical analysis, machine learning, and advanced data visualization techniques. With a robust foundation in full-stack development, I excel at building dynamic, user-friendly applications that enhance business operations and drive strategic decision-making.
+</p>
+<p className="mb-4">
+    My experience includes creating data-driven reports and dashboards that facilitate informed decision-making, implementing scalable data pipelines, and developing web applications using modern frameworks such as React and Node.js. I have a proven track record of successfully managing projects from conception to completion, ensuring they meet both technical specifications and user needs.
+</p>
+<p className="mb-4">
+    I am passionate about harnessing the power of technology to solve complex problems and deliver innovative solutions. I thrive in collaborative environments, constantly seeking to learn and adapt to new technologies and methodologies. My goal is to empower organizations by leveraging data and technology to achieve their strategic objectives.
+</p>
+
         
         {/* Download CV Button */}
         <a
