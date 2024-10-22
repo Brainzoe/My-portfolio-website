@@ -1,7 +1,11 @@
 /* Add any global styles you want here */
 body {
   font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 /* src/App.css */
 nav {
   background-color: #333;
@@ -28,4 +32,21 @@ nav ul li a {
 
 nav ul li a:hover {
   background-color: #555;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+}
+
+/* Handle mobile overflow */
+html, body {
+  overflow-x: hidden;
 }
