@@ -14,6 +14,7 @@ import myImage from './images/my-image.jpg';
 function App() {
   return (
     <Router>
+      {/* Navbar will always be rendered */}
       <Navbar />
       <Routes>
         {/* Render everything on the Home route */}
@@ -36,6 +37,7 @@ function App() {
 }
 
 export default App;
+
 
 // import React from 'react';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
